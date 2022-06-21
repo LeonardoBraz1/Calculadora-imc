@@ -8,7 +8,7 @@ function imc() {
 
   if (nome !== "" && altura !== "" && peso !== "") {
     const valorimc = peso / (altura * altura).toFixed(1);
-    resultado.textContent = valorimc.toFixed(1);
+    resultado.textContent = valorimc.toFixed(1) + " KG";
   } else {
     resultado.textContent = "Preencha todos os campos!!!";
   }
